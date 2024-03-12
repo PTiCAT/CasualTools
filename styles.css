@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(to bottom, #242424, #3b3b3b);
+}
+
+.button{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.button_div{
+    display: inline-block;
+    padding: 10px;
+    background-color: #464646;
+    border-radius: 10px;
+}
+
+.main_head{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.second_head{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main_div{
+    color: #ffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to top, #222222, #000000);
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.main_div { animation: fadeIn 2s; }
